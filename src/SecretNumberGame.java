@@ -16,7 +16,7 @@ public class SecretNumberGame {
 			while(answer==false)
 			{	
 				
-				System.out.println("Please guess the secret number below (1-100), input -1 to play a new game, -2 to quit ");
+				System.out.println("Please guess the secret number below (0-100), input -1 to play a new game, -2 to quit ");
 				int guess=player.nextInt();
 			
 				if(-2>guess || guess>100)
