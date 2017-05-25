@@ -46,11 +46,7 @@ public class SecretNumberGame {
 					System.out.println("The value you inputted is lower than the secret number");
 					count++;					
 				}    
-				else if(guess<target) 
-				{
-					System.out.println("The value you inputted is lower than the secret number");
-					count++;					
-				} 
+				
 				else if(guess==target) 
 				{
 					count++;
